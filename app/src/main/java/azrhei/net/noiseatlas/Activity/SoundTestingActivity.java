@@ -1,5 +1,6 @@
 package azrhei.net.noiseatlas.Activity;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +14,7 @@ import azrhei.net.noiseatlas.R;
 import azrhei.net.noiseatlas.Sensors.SoundReader;
 
 public class SoundTestingActivity
-        extends AppCompatActivity
+        extends Activity
         implements View.OnClickListener
 {
 

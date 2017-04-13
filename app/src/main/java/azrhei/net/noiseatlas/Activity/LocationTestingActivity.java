@@ -1,5 +1,6 @@
 package azrhei.net.noiseatlas.Activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,7 +17,7 @@ import java.util.concurrent.ConcurrentSkipListSet;
 import azrhei.net.noiseatlas.R;
 
 public class LocationTestingActivity
-        extends AppCompatActivity
+        extends Activity
         implements View.OnClickListener
 {
 
