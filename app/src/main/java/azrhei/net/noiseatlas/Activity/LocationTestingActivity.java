@@ -20,8 +20,8 @@ public class LocationTestingActivity
         extends Activity
         implements View.OnClickListener
 {
-
     Set<Button> buttons = new ConcurrentSkipListSet<>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
